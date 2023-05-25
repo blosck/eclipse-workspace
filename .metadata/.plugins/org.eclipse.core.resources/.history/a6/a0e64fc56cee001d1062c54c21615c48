@@ -1,0 +1,19 @@
+package myFirstProject;
+
+public class operadores {
+	public static void main(String[] args) {
+		
+		int numA, numB;
+		numA = 10;
+		numB = 4;
+		
+		int suma = numA + numB;  // Suma (también se puede sumar una variable a un número de por si
+		System.out.println(suma);
+		
+		int resta = numA - numB;
+		System.out.println(resta);
+		
+		
+	}
+
+}

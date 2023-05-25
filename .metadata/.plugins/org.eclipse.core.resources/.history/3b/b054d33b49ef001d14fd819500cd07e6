@@ -1,0 +1,25 @@
+package myFirstProject;
+
+import java.util.Scanner;
+
+public class matrizBidimencional {
+	
+	public static void main(String[] args) {
+		
+		int[] numbers = new int[2]; // Matriz normal
+		int[][] arreglo = new int[4][2];  //  Matriz bidimencional
+		
+		Scanner leer;
+		
+		leer = new Scanner(System.in);
+		
+		for(int i = 0; i < arreglo.length; i++) {
+			for( int j = 0; j < arreglo.length; j++) {
+				System.out.println("Ingresa un número:");
+				arreglo[i][j] = leer.nextInt();
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package myFirstProject;
+
+public class operadores {
+	public static void main(String[] args) {
+		
+		int numA, numB, numC;
+		numA = 10;
+		numB = 4;
+		numC = 5;
+		
+		float numD, numE;
+		numD = 10;
+		numE = 4;
+		
+		int suma = numA + numB;  // Suma (también se puede sumar una variable a un número de por si)
+		System.out.println(suma);
+		
+		int resta = numA - numB;  // Resta (también se puede sumar una variable a un número de por si)
+		System.out.println(resta);
+		
+		int multi = numB * 17 * numA;  // Multiblicación
+		System.out.println(multi);
+		
+		float div1 = numA / numB;  // Es la división normal pero dará 2.0 porque numA y numB son variable de tipo int y eso condiciona el resultado de salida
+		System.out.println(div1);
+		
+		//  Para corregirlo, se debe iniciar la operación utilizando floats desde el principio 
+		
+		float div2 = numD / numE;
+		System.out.println(div2);
+		
+		int div3 = numA % numC;
+		System.out.println();
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package myFirstProject;
+
+public class matrices {
+	
+	public static void main(String[] args) {
+		
+		int numberA = 8;
+		int numberB = 5;
+		int numberC = 4;
+		int numberD = 2;
+		
+		int[] numbers = new int[4]  //  Se declara el array y luego en el new int, dentro de los corchetes se indica el número de elementos que contendrá
+				
+		numbers[0] = 1; //  En la primera posición (0), se le asigna el numero 1
+		numbers[1] = 2;
+		numbers[2] = 3;
+		numbers[3] = 4;
+		
+		System.out.println(numbers[1]);
+	}
+
+}

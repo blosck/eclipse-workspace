@@ -1,0 +1,17 @@
+package myFirstProject;
+
+public class condiciones {
+	
+	public static void main( String[] args) {
+		
+		int numA = 6;
+		if( numA < 10) {
+			System.out.println("El número es menos a 10");
+		}else if(numA == 6) {
+			System.out.println("El número es igual a " + numA);
+		}else {
+			System.out.println("El no es menor a 10");
+		}
+	}
+
+}

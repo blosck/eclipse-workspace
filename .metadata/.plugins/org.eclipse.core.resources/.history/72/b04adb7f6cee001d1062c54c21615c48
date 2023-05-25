@@ -1,0 +1,14 @@
+package myFirstProject;
+
+public class operadores {
+	public static void main(String[] args) {
+		
+		int numA, numB;
+		numA = 10;
+		numB = 4;
+		
+		int res = numA + numB;
+		System.out.println(res);
+	}
+
+}

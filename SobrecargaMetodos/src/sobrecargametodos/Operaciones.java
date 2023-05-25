@@ -1,0 +1,24 @@
+package sobrecargametodos;
+
+public class Operaciones {
+	
+	public static int sumar(int a, int b) {
+		System.out.println("Método sumar(int a, int b)");
+		return a + b;
+	}
+	
+	public static double sumar(double a, double b) {
+		System.out.println("Método sumar(double a, double b)");
+		return a + b;
+	}
+	
+	public static double sumar(int a, double b) {
+		System.out.println("Método sumar(int a, double b)");
+		return a + b;
+	}
+	
+	public static double sumar(double a, int b) {
+		System.out.println("Método sumar(double a, int b)");
+		return a + b;
+	}
+}

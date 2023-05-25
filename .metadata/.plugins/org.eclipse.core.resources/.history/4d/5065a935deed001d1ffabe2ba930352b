@@ -1,0 +1,16 @@
+package myFirstProject;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		int numEntero = 9000;
+		System.out.println(numEntero);	
+		
+		float numFlotante = 10/3f;
+		System.out.println(numFlotante);
+		
+		int numeroA = 980000000;
+	}
+	
+	
+}

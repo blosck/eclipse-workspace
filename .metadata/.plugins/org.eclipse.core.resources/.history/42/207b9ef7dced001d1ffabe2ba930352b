@@ -1,0 +1,11 @@
+package myFirstProject;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		int numEntero = 90;
+		System.out.println(numEntero);
+		
+	}
+	
+}

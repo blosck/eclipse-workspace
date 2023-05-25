@@ -1,0 +1,17 @@
+package myFirstProject;
+
+public class controlTryCatch {
+	
+	public static void main(String[] args) {
+		
+		try {
+			int number = 4/0;  //  Esto es un error de programación. El programa no sabŕa resolver esto y enviará un error			
+		} catch(Exeption e) {
+			//  TODO: handle exeption
+			System.out.println(e);
+		}
+		
+		
+	}
+
+}

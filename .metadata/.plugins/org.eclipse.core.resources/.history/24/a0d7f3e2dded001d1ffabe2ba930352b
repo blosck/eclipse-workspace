@@ -1,0 +1,14 @@
+package myFirstProject;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		int numEntero = 9000;
+		System.out.println(numEntero);	
+		
+		float dividedNum = 10/3;
+		System.out.println(dividedNum);
+	}
+	
+	
+}

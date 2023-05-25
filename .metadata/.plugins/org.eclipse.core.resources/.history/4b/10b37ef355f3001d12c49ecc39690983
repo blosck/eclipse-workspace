@@ -1,0 +1,17 @@
+package aritmetica;
+
+public class Aritmetica {
+	int a;
+	int b;
+	
+	Aritmetica(int arg1, int arg2){
+		a = arg1;
+		b = arg2;
+	};	
+		
+	int sumar(int arg1, int arg2) {
+		return a + b;
+	};
+	
+	
+}
